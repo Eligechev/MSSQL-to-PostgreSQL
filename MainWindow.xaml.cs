@@ -39,7 +39,7 @@ namespace TableParser
                 MSSQL_DB.OpenConnection();
             }
             else
-                MessageBox.Show("Enter vals");
+                MessageBox.Show("Enter values");
         }
     }
 }
