@@ -1,0 +1,16 @@
+﻿<Window x:Class="TableParser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TableParser"
+        mc:Ignorable="d"
+        Title="Table parser" Height="400" Width="300">
+    <Grid>
+        <Label Content="Base Name" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 20 0 0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Margin="112,279,0,0" Click="Button_Click"/>
+        <TextBox x:Name="baseNameTextBox" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196" Margin="0,60,0,0"/>
+        <Label Content="Server Name" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="112,117,112,0"/>
+        <TextBox x:Name="serverNameTextBox" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="68" Margin="112,157,112,0"/>
+    </Grid>
+</Window>
